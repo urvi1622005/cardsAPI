@@ -1,6 +1,6 @@
 // src/components/Index.jsx
 import React, { useEffect, useState } from 'react';
-import '../styles/Index.css';
+import '../styles/index.css';
 
 const Index = () => {
     const [users, setUsers] = useState([]);
@@ -22,6 +22,8 @@ const Index = () => {
                     <div className="card_inner">
                         <img src={user.avatar_url} alt={user.login} />
                         <div className="userName">{user.login}</div>
+                        <div className="userid">{user.id}</div>
+                        {/* <div className='userEmail'>{user.email}</div> */}
                         <div className="userUrl">
                             <a href={user.html_url} target="_blank" rel="noopener noreferrer">{user.html_url}</a>
                         </div>

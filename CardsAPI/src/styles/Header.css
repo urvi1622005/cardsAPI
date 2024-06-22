@@ -6,7 +6,7 @@ nav.navigation {
 }
 
 .navigation h1 {
-    width: 80%;
+    width: 30%;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -16,4 +16,11 @@ nav.navigation {
     letter-spacing: 3px;
     font-weight: 900;
     align-items: center;
+    border: #857ecd 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 10px hsl(225, 100%, 94%);
+    
+    
+    
 }

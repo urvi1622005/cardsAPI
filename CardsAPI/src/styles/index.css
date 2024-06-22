@@ -1,6 +1,6 @@
 /* src/styles/Index.css */
 body {
-  background-color: hsla(225, 100%, 94%, 0.801);
+  background-color: black;
 }
 
 .container {
@@ -63,6 +63,25 @@ body {
   overflow: hidden;
   display: block;
 }
+.userid{
+    font-size: 12px;
+    font-weight: 100;
+    margin: 5px 0 10px;
+    color: #888B9E;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+.container .card_item .userUrl a:hover {
+  color: #203150;
+  text-decoration: none;
+  transition: color .2s;
+
+}
+
+    
+
 
 .seeMore {
   margin: 10px auto;
